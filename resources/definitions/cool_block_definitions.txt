@@ -1,0 +1,13 @@
+# default values for blocks
+default width:50 stroke:color(black)
+
+# block definitions
+
+bdef symbol:p hit_points:1 height:55 fill:image(block_images/top_body.jpg)
+bdef symbol:x hit_points:2 width:100 height:100 fill:image(block_images/box.jpg)
+bdef symbol:s hit_points:1 height:25 fill:image(block_images/strings.jpg)
+bdef symbol:t hit_points:1 height:55 fill:image(block_images/bot_body.jpg)
+bdef symbol:e hit_points:1 height:50 width:100 fill:image(block_images/end.jpg)
+
+# spacers definitions
+sdef symbol:- width:50

@@ -1,0 +1,13 @@
+# default values for blocks
+default height:30 width:50 stroke:color(red)
+
+# block definitions
+
+bdef symbol:t hit_points:1 fill:image(block_images/top_bun.jpg)
+bdef symbol:m hit_points:1 fill:image(block_images/meat.jpg)
+bdef symbol:j hit_points:1 fill:image(block_images/jam.JPG)
+bdef symbol:c hit_points:1 fill:image(block_images/custard.jpg)
+bdef symbol:b hit_points:1 fill:image(block_images/bottom_bun.jpg)
+
+# spacers definitions
+sdef symbol:- width:50

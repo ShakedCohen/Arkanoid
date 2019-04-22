@@ -1,0 +1,10 @@
+# default values for blocks
+default height:40 width:50 stroke:color(black)
+
+# block definitions
+
+bdef symbol:t hit_points:3 fill:image(block_images/soon.jpg) fill-2:image(block_images/ok.jpg) fill-3:image(block_images/eyes.jpg)
+bdef symbol:b hit_points:3 fill:image(block_images/soon.jpg) fill-2:image(block_images/eyes.jpg) fill-3:image(block_images/ok.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
